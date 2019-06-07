@@ -3,4 +3,4 @@ mono: none
 dotnet: 2.1.502
 script:
  - dotnet pack -c Release -o . -p:PackageVersion=1.0.$TRAVIS_BUILD_NUMBER
- - dotnet nuget push AppLogger.1.0.$TRAVIS_BUILD_NUMBER.nupkg -k $nuget_key -s https://api.nuget.org/v3/index.json
+ - dotnet nuget push NodeGames.Core.1.0.$TRAVIS_BUILD_NUMBER.nupkg -k $nuget_key -s https://api.nuget.org/v3/index.json
